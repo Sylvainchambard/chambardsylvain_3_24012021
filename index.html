@@ -16,97 +16,128 @@
 <body>
 	<header>
 		<a href="">
-			<img src="images/logo/ohmyfood.png" alt="Ohmyfood-restaurants"/>
+			<img src="images/logo/ohmyfood.png" alt="Ohmyfood-restaurants" class="logo"/>
 		</a>
 	</header>
 
 	<nav>
-		<div class="icon_map"></div>
-			<i class="fas fa-map-marker-alt"></i>
-				<input type="search" class="localisation" value="Paris, Belleville"/>
+		<div class="icon_map">
+
+			<input type="search" class="localisation" value="Paris, Belleville">
+				<i class="fas fa-map-marker-alt"></i>
 		</div>	
 	</nav>
 
+<section>
 	<aside>
 		<h1>Réservez le menu qui vous convient</h1>
 		<p>Découvrez des restaurants d'exeption, séléctionnés par nos soins.</p>
-		<input type="button" value="Explorer nos restaurants" class="button">
+		<input type="button" onclick= href="#" value="Explorer nos restaurants" class="button">
 	</aside>
 
 	<article>
 		<h2>Fonctionnement</h2>
-			<ul>
-				<li class="icon_mobile"> 
-					<i class="fas fa-map-marker-alt"></i> 
-					Choisissez un restaurant
-				</li>
-				<li class="icon_list"> 
-					<i class="fas fa-list-ul"></i> 
-					Composez votre menu
-				</li>
-				<li class="icon_store"> 
-					<i class="fas fa-store"></i> 
-					Dégustez au restaurant
-				</li>
-			</ul>	
+			<div class="operation">
+
+				<span class="bar">	
+					<div class="circle"> 1 </div>
+						<div class="icon_mobile"> 
+							<i class="fas fa-map-marker-alt"></i> 
+								Choisissez un restaurant
+						</div>
+				</span>	
+
+				<span class="bar">
+					<div class="circle"> 2 </div>
+						<div class="icon_list"> 
+							<i class="fas fa-list-ul"></i> 
+								Composez votre menu
+						</div>
+				</span>		
+
+				<span class="bar">
+					<div class="circle"> 3 </div>
+						<div class="icon_store"> 
+							<i class="fas fa-store"></i> 
+								Dégustez au restaurant
+						</div>
+				</span>		
+			</div>
+
 	</article>
 
-	<section>
+	<article class="back_restaurant">
 		<h3>Restaurants</h3>
 			<div class="all_cartes">
 				<a href="">
 					<div class="restaurant">
 						<img src="images/restaurants/restaurant1.jpg" alt="la palette du gout - Ménilmontant"/>
-							<div class="new">
-								Nouveau
-							</div>		
-									<h4>La palette du goût</h4> 
-										<p>
-											Ménilmontant
-										</p>
+							<div class="hearth">
+								<div class="text">
+									<div class="new">
+									Nouveau
+									</div>		
+										<h4>La palette du goût</h4> 
+											<p>
+												Ménilmontant
+											</p>
+								</div>		
 											<i class="far fa-heart"></i>
+										</div>
 					</div>
 				</a>
 
 				<a href="">	
 					<div class="restaurant">
 						<img src="images/restaurants/restaurant2.jpg" alt="La note enchantée- Charonne"/>
-							<div class="new">
-								Nouveau
-							</div>			
-								<h4>La note enchantée</h4>
-									<p>
-										Charonne
-									</p>
+						<div class="hearth">
+								<div class="text">	
+									<div class="new">
+									Nouveau
+									</div>	
+										<h4>La note enchantée</h4>
+											<p>
+											Charonne
+											</p>
+									</div>				
 										<i class="far fa-heart"></i>	
+								</div>		
 					</div>
 				</a>
 
 				<a href="">
 					<div class="restaurant">
 						<img src="images/restaurants/restaurant3.jpg" alt="A la francaise- Cité Rouge"/>
-							<h4>A la française</h4>
-								<p>
-									Cité Rouge
-								</p>
-									<i class="far fa-heart"></i>
+						<div class="hearth">
+							<div class="text">
+								<h4>A la française</h4>
+									<p>
+										Cité Rouge
+									</p>
+							</div>
+								<i class="far fa-heart"></i>
+						</div>				
 					</div>
 				</a>		
 				
 				<a href="">
 					<div class="restaurant">
 						<img src="images/restaurants/restaurant4.jpg" alt="Le délice des sens- Folie-Méricourt"/>
-						<h4>Le délice des sens</h4>
-							<p>
-								Folie-Méricourt
-							</p>
-								<i class="far fa-heart"></i>
+						<div class="hearth">
+							<div class="text">
+								<h4>Le délice des sens</h4>
+									<p>
+										Folie-Méricourt
+									</p>
+										<i class="far fa-heart"></i>
+							</div>	
+						</div>			
 					</div>
 				</a>
 
 			</div>
-	</section>		
-
+	</article>		
+</section>
 	<footer>
 		<h5>omyfood</h5>
 			<ul>

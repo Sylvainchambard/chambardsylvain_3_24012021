@@ -6,9 +6,184 @@
 
 body
 {
+	width: 100%;
+	margin: auto;
+
 	font-family: 'Roboto', sans-serif;
 		
 }
+
+a
+{
+	text-decoration: none;
+}
+
+/*------- Header --------*/
+
+header
+{
+	text-align: center;
+    height: 65px;
+    line-height: 65px;
+ }
+
+ .logo 
+ {
+ 	height: 40px;
+ 	vertical-align: middle;
+ }
+
+/*------- Navigation -------*/
+.icon_map
+{
+	display: block;
+}
+
+.localisation
+{
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	background-color: #EAEAEA;
+	border:none;
+}
+
+nav 
+{
+	border-top: 3px solid #CFCFCF;
+}
+
+.fa-map-marker-alt
+{
+
+}
+
+
+/*------- Section --------*/
+
+/*------- Aside -------*/
+
+aside
+{
+	background-color: #f6f6f6;
+	text-align: center;
+    padding: 20px;
+}
+
+.button
+{
+	background: radial-gradient( ellipse at top left, #FF79DA, #9356DC);
+	color: white;
+	line-height: 40px;
+    border: none;
+    border-radius: 25px;
+    padding: 2px 15px;
+}
+/*------- Article 1 -------*/
+.icon_mobile, .icon_list, .icon_store
+{
+	width: 100%;
+	margin: 10px;
+	background-color: #f6f6f6;
+    line-height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.operation
+{
+	display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.bar
+{
+	display: flex;
+	align-items: center;
+	width: 450px;
+    margin: auto
+}
+
+.circle
+{
+	height: 22px;
+    width: 22px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #9356DC;
+    border-radius: 50%;
+    color: white;
+    margin: 0px -21px 0px 10px;
+    backface-visibility: hidden;
+}
+
+.fa-map-marker-alt, .fa-list-ul, .fa-store 
+{
+    padding-right: 10px;
+}
+
+h2 
+{
+	padding-left: 20px;
+}
+
+/*------- Article 2 --------*/
+.back_restaurant
+{
+	background-color: pink /*#f6f6f6*/;
+}
+
+.all_cartes
+{
+	flex-wrap: wrap;
+}
+
+.restaurant
+{
+	border-radius: 20px;
+	background-color: white;
+    height: 250px;
+   
+    margin: 20px;
+}
+
+article img
+{
+	width: 100%;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.text
+{
+	line-height: 0px;
+    padding: 0px 10px;
+
+}
+
+.hearth
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 0 13px 0 5px;
+}
+
+.new
+{
+	position: absolute;
+    height: 30px;
+    width: 80px;
+    background-color: #a6e0d1;
+    color: #348468;
+    top: -180px;
+    left: calc(100% - 75px);
+    text-align: center;
+    line-height: 30px;
+}
+/*------- Footer -------*/
 
 h5
 {
