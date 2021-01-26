@@ -15,62 +15,60 @@
 </head>
 <body>
 	<header>
-		<a href="">
+		<a href="#">
 			<img src="images/logo/ohmyfood.png" alt="Ohmyfood-restaurants" class="logo"/>
 		</a>
 	</header>
 
-	<nav>
-		<div class="icon_map">
+	<div id="search_city">
+		<div class="icon_map"><i class="fas fa-map-marker-alt"></i></div>	
 
-			<input type="search" class="localisation" value="Paris, Belleville">
-				<i class="fas fa-map-marker-alt"></i>
-		</div>	
-	</nav>
+				<input type="search" class="localisation" value="Paris, Belleville">	
+	</div>
 
-<section>
-	<aside>
+
+	<div id="booking">
 		<h1>Réservez le menu qui vous convient</h1>
 		<p>Découvrez des restaurants d'exeption, séléctionnés par nos soins.</p>
-		<input type="button" onclick= href="#" value="Explorer nos restaurants" class="button">
-	</aside>
-
-	<article>
+		<input type="button" value="Explorer nos restaurants" class="button">
+	</div>
+<main>
+	<nav>
 		<h2>Fonctionnement</h2>
 			<div class="operation">
 
-				<span class="bar">	
+				<div class="bar">	
 					<div class="circle"> 1 </div>
 						<div class="icon_mobile"> 
-							<i class="fas fa-map-marker-alt"></i> 
+							<i class="fas fa-mobile-alt"></i> 
 								Choisissez un restaurant
 						</div>
-				</span>	
+				</div>	
 
-				<span class="bar">
+				<div class="bar">
 					<div class="circle"> 2 </div>
 						<div class="icon_list"> 
 							<i class="fas fa-list-ul"></i> 
 								Composez votre menu
 						</div>
-				</span>		
+				</div>		
 
-				<span class="bar">
+				<div class="bar">
 					<div class="circle"> 3 </div>
 						<div class="icon_store"> 
 							<i class="fas fa-store"></i> 
 								Dégustez au restaurant
 						</div>
-				</span>		
+				</div>		
 			</div>
 
-	</article>
+	</nav>
 
-	<article class="back_restaurant">
+	<section class="back_restaurant">
 		<h3>Restaurants</h3>
 			<div class="all_cartes">
-				<a href="">
-					<div class="restaurant">
+				<a href="pages_restaurants/palette_du_gout.html">
+					<article>
 						<img src="images/restaurants/restaurant1.jpg" alt="la palette du gout - Ménilmontant"/>
 							<div class="hearth">
 								<div class="text">
@@ -84,11 +82,11 @@
 								</div>		
 											<i class="far fa-heart"></i>
 										</div>
-					</div>
+					</article>
 				</a>
 
-				<a href="">	
-					<div class="restaurant">
+				<a href="#">	
+					<article>
 						<img src="images/restaurants/restaurant2.jpg" alt="La note enchantée- Charonne"/>
 						<div class="hearth">
 								<div class="text">	
@@ -102,11 +100,11 @@
 									</div>				
 										<i class="far fa-heart"></i>	
 								</div>		
-					</div>
+					</article>
 				</a>
 
 				<a href="">
-					<div class="restaurant">
+					<article>
 						<img src="images/restaurants/restaurant3.jpg" alt="A la francaise- Cité Rouge"/>
 						<div class="hearth">
 							<div class="text">
@@ -117,11 +115,11 @@
 							</div>
 								<i class="far fa-heart"></i>
 						</div>				
-					</div>
+					</article>
 				</a>		
 				
 				<a href="">
-					<div class="restaurant">
+					<article>
 						<img src="images/restaurants/restaurant4.jpg" alt="Le délice des sens- Folie-Méricourt"/>
 						<div class="hearth">
 							<div class="text">
@@ -133,17 +131,18 @@
 										<i class="far fa-heart"></i>
 								
 						</div>			
-					</div>
+					</article>
 				</a>
 
 			</div>
-	</article>		
-</section>
+		
+	</section>
+</main>
 	<footer>
 		<h5>omyfood</h5>
 			<ul>
-				<li><a href=""> Proposer un restaurant</a></li>
-				<li><a href=""> Devenir partenaire</a></li>
+				<li><a href=""> <i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
+				<li><a href=""><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>
 				<li><a href=""> Mentions légales</a></li>
 				<li><a href=""> Contact</a></li>
 			</ul>

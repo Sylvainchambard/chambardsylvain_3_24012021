@@ -1,0 +1,44 @@
+@font-face
+{
+	font-family: 'Roboto','Shrikhand',cursive, sans-serif;
+
+}
+
+body
+{
+	width: 100%;
+	margin: auto;
+
+	font-family: 'Roboto', sans-serif;
+		
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/*----- Header ----*/
+
+.arrow_logo
+{
+	display: flex;
+	align-items: center;
+    height: 65px;
+    justify-content: center;
+    
+}
+
+
+.arrow
+{
+	line-height: 40px;
+	    position: absolute;
+    left: 6px;
+}
+
+ .logo 
+ {
+ 	height: 40px;
+ 	vertical-align: middle;
+ }
