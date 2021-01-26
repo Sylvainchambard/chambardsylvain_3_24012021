@@ -167,19 +167,17 @@ article img
 {
 	display: flex;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
 	padding: 0 13px 0 5px;
 }
 
 .new
 {
-	position: absolute;
+	
     height: 30px;
     width: 80px;
     background-color: #a6e0d1;
     color: #348468;
-    top: -180px;
-    left: calc(100% - 75px);
     text-align: center;
     line-height: 30px;
 }
