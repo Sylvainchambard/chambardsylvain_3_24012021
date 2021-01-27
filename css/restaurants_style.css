@@ -19,6 +19,11 @@ a
 }
 
 /*----- Header ----*/
+header {
+	position: relative;
+	max-width: 1000px;
+	margin: auto;
+}
 
 .arrow_logo
 {
@@ -26,6 +31,7 @@ a
 	align-items: center;
     height: 65px;
     justify-content: center;
+
     
 }
 
@@ -35,6 +41,7 @@ a
 	line-height: 40px;
 	    position: absolute;
     left: 6px;
+    color: black;
 }
 
  .logo 
@@ -42,3 +49,200 @@ a
  	height: 40px;
  	vertical-align: middle;
  }
+
+.image
+{
+	width: 100%;
+	height: 290px;
+	object-fit: cover;
+}
+
+/*----- Section -----*/
+section
+{
+	background-color: #f6f6f6;
+	padding: 25px 0;
+	border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+    bottom: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2
+{
+	padding-left: 20px;
+}
+
+h1
+{
+	font-family: 'Shrikhand', sans-serif;
+	font-size: xx-large;
+}
+
+.title_hearth
+{
+	display: flex;
+	    justify-content: space-between;
+}
+
+.hearth
+{
+	display: flex;
+    align-items: center;
+    padding-right: 30px;
+    font-size: x-large;
+}
+
+.button
+{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.button_color
+{
+	background: radial-gradient( ellipse at top left, #FF79DA, #9356DC);
+	box-shadow: 3px 3px 4px  rgba(0, 0, 0, .5);
+	color: white;
+	font-size: inherit;
+	line-height: 45px;
+    border: none;
+    border-radius: 25px;
+    padding: 2px 42px;
+    margin: 15px 0;
+}
+
+/*----- Article -----*/
+article 
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.all_plate 
+{
+	margin-bottom: 20px;
+}
+
+.plate_price 
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: 25px;
+    padding: 0px 22px 14px 17px;
+    line-height: 16px;
+    margin: 20px 10px;
+    box-shadow: 3px 3px 4px  rgba(0, 0, 0, .5);
+}
+
+.plate
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.price
+{
+	display: flex;
+	align-items: flex-end;
+	font-weight: bold;
+}
+
+.validate
+{display: none;}
+
+.border_title
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.border
+{
+	width: 50px;
+    border-top: solid 3px #99E2D0;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+/*----- Footer -----*/
+
+footer, li a
+{
+	color: white;
+}
+
+footer
+{
+	padding-top: 1px;
+	padding-bottom: 10px;
+	background-color: #353535;
+	margin-top: -50px;
+	max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5
+{
+	font-family: 'Shrikhand', cursive;
+	font-size: x-large;
+	padding-left: 30px;
+}
+
+li 
+{
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.fa-utensils 
+{
+	padding-right: 15px;
+}
+
+.fa-hands-helping 
+{
+	font-size: small;
+	padding-right: 7px;
+}
+
+
+@media only screen and (min-width: 800px)
+{
+	h5
+	{
+		padding-left: 70px;
+	}
+
+	footer li
+	{
+		display: inline-flex;
+		margin: 0 30px;
+		
+	}
+
+}
+@media only screen and (min-width: 1400px)
+{
+	header, section
+	{
+		max-width: 1400px;
+	}
+
+	.all_plate
+	{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	
+	footer
+	{
+		max-width: 1400px;
+	}
+}
