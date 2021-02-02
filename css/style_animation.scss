@@ -1,0 +1,14 @@
+.bar, article, .button_color 
+{
+    &:hover
+    {
+	    cursor: pointer;
+	    transition-duration: 250ms;
+	    filter: brightness(120%);
+    }
+}
+
+.fa-heart
+{
+
+}

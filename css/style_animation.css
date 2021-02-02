@@ -1,0 +1,8 @@
+.bar:hover, article:hover, .button_color:hover {
+  cursor: pointer;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+/*# sourceMappingURL=style_animation.css.map */
