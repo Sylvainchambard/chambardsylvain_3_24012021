@@ -1,8 +1,10 @@
-.bar:hover, article:hover, .button_color:hover {
+.plate_price:hover, .button_color:hover, .bar:hover {
   cursor: pointer;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
   -webkit-filter: brightness(120%);
           filter: brightness(120%);
+  -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
+          box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
 }
 /*# sourceMappingURL=style_animation.css.map */

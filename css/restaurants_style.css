@@ -105,7 +105,7 @@ h1
 .button_color
 {
 	background: radial-gradient( ellipse at top left, #FF79DA, #9356DC);
-	box-shadow: 3px 3px 4px  rgba(0, 0, 0, .5);
+	box-shadow: 3px 3px 4px  rgba(0, 0, 0, .4);
 	color: white;
 	font-size: inherit;
 	line-height: 45px;
@@ -136,7 +136,7 @@ article
     padding: 0px 22px 14px 17px;
     line-height: 16px;
     margin: 20px 10px;
-    box-shadow: 3px 3px 4px  rgba(0, 0, 0, .5);
+    box-shadow: 3px 3px 4px  rgba(0, 0, 0, .4);
 }
 
 .plate

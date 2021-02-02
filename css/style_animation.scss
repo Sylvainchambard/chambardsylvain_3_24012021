@@ -1,14 +1,9 @@
-.bar, article, .button_color 
+.plate_price, .button_color, .bar
 {
-    &:hover
-    {
-	    cursor: pointer;
-	    transition-duration: 250ms;
-	    filter: brightness(120%);
+    &:hover{  
+  	    cursor: pointer;
+	    transition-duration: 350ms;
+        filter: brightness(120%);
+        box-shadow: 3px 3px 4px  rgba(0, 0, 0, .8);
     }
-}
-
-.fa-heart
-{
-
 }
