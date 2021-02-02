@@ -74,7 +74,7 @@ header
     padding: 20px;
 }
 
-.button
+.button_color
 {
 	background: radial-gradient( ellipse at top left, #FF79DA, #9356DC);
 	box-shadow: 3px 3px 4px  rgba(0, 0, 0, .5);
