@@ -1,4 +1,5 @@
-.plate_price:hover, .button_color:hover, .bar:hover {
+/* ---------- animation bouttons ----------- */
+.button_color:hover, .bar:hover {
   cursor: pointer;
   -webkit-transition-duration: 350ms;
           transition-duration: 350ms;
@@ -6,5 +7,53 @@
           filter: brightness(120%);
   -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
           box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* ---------- annimation coeur --------- */
+.fa-heart {
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  background-color: #7114bd;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+/* ---------- animation check -------------- */
+.plate_price:hover > .slide_left {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.plate_price:hover .fa-check-circle {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.slide_left {
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 1.7s;
+  transition: -webkit-transform 1.7s;
+  transition: transform 1.7s;
+  transition: transform 1.7s, -webkit-transform 1.7s;
+}
+
+.fa-check-circle {
+  -webkit-transform: rotate(2turn);
+          transform: rotate(2turn);
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  transition: transform .8s ease-in-out, -webkit-transform .8s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
 }
 /*# sourceMappingURL=style_animation.css.map */

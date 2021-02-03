@@ -1,9 +1,55 @@
-.plate_price, .button_color, .bar
+/* ---------- animation bouttons ----------- */
+
+.button_color, .bar
 {
     &:hover{  
   	    cursor: pointer;
 	    transition-duration: 350ms;
         filter: brightness(120%);
-        box-shadow: 3px 3px 4px  rgba(0, 0, 0, .8);
+        box-shadow: 3px 3px 4px  rgba(0, 0, 0, 0.8);
     }
+}
+/* ---------- annimation coeur --------- */
+
+.fa-heart {
+    transition: transform 3s ;
+    cursor: pointer;
+    
+
+    &:hover {
+        background-color: rgb(113, 20, 189);
+        
+        transform-origin:50% 50%;
+       
+        
+    }
+}
+
+
+/* ---------- animation check -------------- */
+
+.plate_price {
+    &:hover {
+        & > .slide_left {
+            transform: scale(1);
+        }
+        .fa-check-circle {
+            transform: rotate(0);
+        }
+           
+      
+    }
+}
+
+.slide_left {
+    transform-origin: 100%;
+   
+    transform : scaleX(0) ;
+    transition: transform 1.7s; 
+}
+
+.fa-check-circle {
+    transform: rotate(2turn);
+    transition: transform .8s ease-in-out; 
+    transition-delay: 0.3s;
 }
