@@ -127,49 +127,9 @@ article
 	margin-bottom: 20px;
 }
 
-.plate_price 
-{
-	display: flex;
-	justify-content: space-between;
-	background-color: white;
-	border-radius: 25px;
-    cursor: pointer;
-    line-height: 16px;
-    margin: 20px 10px;
-	box-shadow: 3px 3px 4px  rgba(0, 0, 0, .4);
-	overflow: hidden;
-}
-
-.plate
-{
-	display: flex;
-	flex-direction: column;
-	padding: 5px 10px 16px 10px ;
-}
-
-.price
-{
-	display: flex;
-	align-items: flex-end;
-	font-weight: bold;
-	padding-bottom: 16px;
-	padding-right: 10px;
-}
-
-.slide_left
-{
-	display: flex;
-	background-color: #99E2D0;
-	align-items: center;
-	border-radius: 0 20px 20px 0;
-	width: 60px;
-	justify-content: center;
-
-}
-
 .fa-check-circle
 {	display: flex;
-	font-size: x-large;
+	font-size: xx-large;
 }
 
 .border_title

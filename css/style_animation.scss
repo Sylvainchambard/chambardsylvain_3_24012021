@@ -28,28 +28,53 @@
 
 /* ---------- animation check -------------- */
 
-.plate_price {
-    &:hover {
-        & > .slide_left {
-            transform: scale(1);
-        }
-        .fa-check-circle {
-            transform: rotate(0);
-        }
-           
-      
+.plate {
+    flex-grow: 1;
+    width: 130px;
+    
+  
+    p, h3 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
-}
+  }
+  .price {
+    width: 40px;
+    align-self: flex-end;
+  }
+  .slide_left {
+    display: flex;
+    width: 0;
+    transition: all 1s;
+    background-color: #99E2D0;
+  
+    .fa-check-circle {
+      margin: auto;  
+      color: white;
+    font-weight: bold;
+      transition: transform 1s;
+      transform: rotate(-2turn);
+    }
+  }
+  
+  .plate_price {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 4px  rgba(0, 0, 0, 0.4);
+    padding: 0 0px 0px 18px;
+  
+    &:hover > .slide_left {
+      width: 60px;
+      .fa-check-circle {
+        transform: rotate(0deg);
+      }
+    }
+  }
 
-.slide_left {
-    transform-origin: 100%;
-   
-    transform : scaleX(0) ;
-    transition: transform 1.7s; 
-}
 
-.fa-check-circle {
-    transform: rotate(2turn);
-    transition: transform .8s ease-in-out; 
-    transition-delay: 0.3s;
-}
