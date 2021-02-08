@@ -4,7 +4,7 @@
 {
     &:hover{  
   	    cursor: pointer;
-	    transition-duration: 350ms;
+	    transition-duration: 550ms;
         filter: brightness(120%);
         box-shadow: 3px 3px 4px  rgba(0, 0, 0, 0.8);
     }
@@ -12,18 +12,23 @@
 /* ---------- annimation coeur --------- */
 
 .fa-heart {
-    transition: transform 3s ;
+  transition: color 3s;
+  
+    transform-origin: center center;
     cursor: pointer;
+    
+    font-weight: initial;
+    
+
     
 
     &:hover {
-        background-color: rgb(113, 20, 189);
-        
-        transform-origin:50% 50%;
-       
-        
+     color: rgb(176, 7, 255);
+      font-weight: bold;
+         
     }
 }
+
 
 
 /* ---------- animation check -------------- */
@@ -54,7 +59,7 @@
       color: white;
     font-weight: bold;
       transition: transform 1s;
-      transform: rotate(-2turn);
+      transform: rotate(-1turn);
     }
   }
   
@@ -69,7 +74,8 @@
     box-shadow: 3px 3px 4px  rgba(0, 0, 0, 0.4);
     padding: 0 0px 0px 18px;
   
-    &:hover > .slide_left {
+    &:hover 
+    > .slide_left {
       width: 60px;
       .fa-check-circle {
         transform: rotate(0deg);
@@ -78,3 +84,60 @@
   }
 
 
+/*-------- Loading spinner ------*/
+
+
+ #loading {
+   
+   height: 100%;
+  .spin {
+   
+    height: 100px;
+    width: 100px;
+    border: 10px solid #99E2D0;
+    border-style: double ;
+    border-radius: 50%;
+    margin: auto;
+    animation: loading 3.5s linear 1;
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    opacity: 0;
+    background: radial-gradient( ellipse at top left,  #9356DC, #FF79DA,);
+    }
+  
+  }
+
+header, nav , main, footer, #booking, #search_city{
+  opacity: 1;
+  animation: apparition 3.5s;
+}
+
+@keyframes apparition {
+0% {
+  opacity: 0;
+}
+ 90%{
+   opacity: 0;
+ }
+
+100% {
+  opacity: 1;
+}
+}
+
+@keyframes loading {
+  0% {
+    transform:  rotate(0turn);
+    opacity: 1;
+  }
+ 
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(-7turn);
+    opacity: 0;
+    
+  }
+}

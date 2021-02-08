@@ -92,7 +92,7 @@ h1
 	display: flex;
     align-items: center;
     padding-right: 30px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .button
@@ -124,7 +124,7 @@ article
 
 .all_plate 
 {
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
 
 .fa-check-circle
