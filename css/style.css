@@ -1,3 +1,4 @@
+
 @font-face
 {
 	font-family: 'Roboto','Shrikhand',cursive, sans-serif;
@@ -7,9 +8,7 @@ body
 {
 	width: 100%;
 	margin: auto;
-
 	font-family: 'Roboto', sans-serif;
-		
 }
 
 a
@@ -18,25 +17,24 @@ a
 }
 
 /*------- Header --------*/
-
 header
-{	
+{
 	text-align: center;
-    height: 65px;
-    line-height: 65px;
- }
+	height: 65px;
+	line-height: 65px;
+}
 
- .logo 
- {
- 	height: 40px;
- 	vertical-align: middle;
- }
+.logo
+{
+	height: 40px;
+	vertical-align: middle;
+}
 
 /*------- Navigation -------*/
 .icon_map
 {
 	height: 35px;
-    line-height: 35px;
+	line-height: 35px;
 }
 
 .localisation
@@ -48,7 +46,7 @@ header
 	border:none;
 }
 
-#search_city 
+#search_city
 {
 	border-top: 3px solid #CFCFCF;
 	display: flex;
@@ -57,14 +55,12 @@ header
 }
 
 /*------- Section --------*/
-
 /*------- Aside -------*/
-
 #booking
 {
 	background-color: #f6f6f6;
 	text-align: center;
-    padding: 20px;
+	padding: 20px;
 }
 
 .button_color
@@ -73,13 +69,14 @@ header
 	box-shadow: 3px 3px 4px  rgba(0, 0, 0, 0.4);
 	color: white;
 	line-height: 40px;
-    border: none;
-    border-radius: 25px;
-    padding: 2px 15px;
-    margin: 15px 0;
+	border: none;
+	border-radius: 25px;
+	padding: 2px 15px;
+	margin: 15px 0;
 }
+
 /*------- Article 1 -------*/
-nav 
+nav
 {
 	padding: 30px 15px;
 }
@@ -88,27 +85,26 @@ nav
 {
 	width: 100%;
 	margin: 10px;
-	
-    line-height: 60px;
-  
-    text-align: center;
-  
+	line-height: 60px;
+	text-align: center;
 }
+
 .operation
 {
 	display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    max-width: 1400px;
+	margin: auto;
+	flex-wrap: wrap;
+	max-width: 1400px;
 }
 
 .bar
-{  border-radius: 20px;
+{
+	border-radius: 20px;
 	background-color: #f6f6f6;
 	display: flex;
 	align-items: center;
 	width: 400px;
-	margin: auto;  
+	margin: auto;
 	margin-bottom: 15px;
 	box-shadow: 3px 3px 4px  rgba(0, 0, 0, 0.4);
 }
@@ -116,19 +112,19 @@ nav
 .circle
 {
 	height: 22px;
-    width: 22px;
-    line-height: 22px;
-    text-align: center;
-    background-color: #9356DC;
-    border-radius: 50%;
-    color: white;
-    margin: 0px 0px 0px -8px;
-    backface-visibility: hidden;
+	width: 22px;
+	line-height: 22px;
+	text-align: center;
+	background-color: #9356DC;
+	border-radius: 50%;
+	color: white;
+	margin: 0px 0px 0px -8px;
+	backface-visibility: hidden;
 }
 
-.fa-mobile-alt, .fa-list-ul, .fa-store 
+.fa-mobile-alt, .fa-list-ul, .fa-store
 {
-    padding-right: 10px;
+	padding-right: 10px;
 }
 
 h2, h3
@@ -154,26 +150,25 @@ article
 	position: relative;
 	border-radius: 20px;
 	background-color: white;
-    height: 250px;
-    margin: 20px;
-    color: black;
-    box-shadow: 3px 3px 4px  rgba(0, 0, 0, .4);
+	height: 250px;
+	margin: 20px;
+	color: black;
+	box-shadow: 3px 3px 4px  rgba(0, 0, 0, .4);
 }
 
 article img
 {
 	width: 100%;
-    height: 180px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: cover;
+	height: 180px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	object-fit: cover;
 }
 
 .text
 {
 	line-height: 0px;
-    padding: 0px 10px;
-
+	padding: 0px 10px;
 }
 
 .text_hearth
@@ -189,19 +184,19 @@ article img
 	position: absolute;
 	top: 10px;
 	right: 10px;
-
-    height: 30px;
-    width: 80px;
-    background-color: #a6e0d1;
-    color: #348468;
-    text-align: center;
-    line-height: 30px;
+	height: 30px;
+	width: 80px;
+	background-color: #a6e0d1;
+	color: #348468;
+	text-align: center;
+	line-height: 30px;
 }
 
 .text_hearth .fa-heart
 {
 	font-size: xx-large;
 }
+
 /*------- Footer -------*/
 footer, li a
 {
@@ -214,6 +209,7 @@ footer
 	padding-bottom: 10px;
 	background-color: #353535;
 }
+
 h5
 {
 	font-family: 'Shrikhand', cursive;
@@ -221,18 +217,18 @@ h5
 	padding-left: 30px;
 }
 
-li 
+li
 {
 	list-style: none;
 	padding-bottom: 10px;
 }
 
-.fa-utensils 
+.fa-utensils
 {
 	padding-right: 15px;
 }
 
-.fa-hands-helping 
+.fa-hands-helping
 {
 	font-size: small;
 	padding-right: 7px;
@@ -240,17 +236,17 @@ li
 
 @media only screen and (min-width: 800px)
 {
-	article 
+	article
 	{
 		min-width: 600px;
 	}
 
 	.all_cartes
 	{
-	display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		justify-content: center;
 	}
 
 	footer li
@@ -258,5 +254,4 @@ li
 		display: inline-flex;
 		margin: 0 30px;
 	}
-
 }

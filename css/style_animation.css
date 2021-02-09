@@ -113,13 +113,13 @@
   background: radial-gradient(ellipse at top left, #9356DC, #FF79DA);
 }
 
-header, nav, main, footer, #booking, #search_city {
+nav, main, footer, #booking, #search_city {
   opacity: 1;
-  -webkit-animation: apparition 3.5s;
-          animation: apparition 3.5s;
+  -webkit-animation: apparition_page 3.5s;
+          animation: apparition_page 3.5s;
 }
 
-@-webkit-keyframes apparition {
+@-webkit-keyframes apparition_page {
   0% {
     opacity: 0;
   }
@@ -131,7 +131,7 @@ header, nav, main, footer, #booking, #search_city {
   }
 }
 
-@keyframes apparition {
+@keyframes apparition_page {
   0% {
     opacity: 0;
   }
@@ -172,6 +172,55 @@ header, nav, main, footer, #booking, #search_city {
     -webkit-transform: rotate(-7turn);
             transform: rotate(-7turn);
     opacity: 0;
+  }
+}
+
+/*------- Apparition menu ---------*/
+.plate_price:nth-child(1) {
+  -webkit-animation: plat_1 1s linear backwards;
+          animation: plat_1 1s linear backwards;
+  opacity: 1;
+}
+
+.plate_price:nth-child(2) {
+  -webkit-animation: plat_1 1s linear backwards;
+          animation: plat_1 1s linear backwards;
+  opacity: 1;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.plate_price:nth-child(3) {
+  -webkit-animation: plat_1 1s linear backwards;
+          animation: plat_1 1s linear backwards;
+  opacity: 1;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.plate_price:nth-child(4) {
+  -webkit-animation: plat_1 1s linear backwards;
+          animation: plat_1 1s linear backwards;
+  opacity: 1;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+@-webkit-keyframes plat_1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes plat_1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style_animation.css.map */

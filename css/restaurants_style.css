@@ -1,16 +1,14 @@
+
 @font-face
 {
 	font-family: 'Roboto','Shrikhand',cursive, sans-serif;
-
 }
 
 body
 {
 	width: 100%;
 	margin: auto;
-
 	font-family: 'Roboto', sans-serif;
-		
 }
 
 a
@@ -19,7 +17,8 @@ a
 }
 
 /*----- Header ----*/
-header {
+header
+{
 	position: relative;
 	max-width: 1000px;
 	margin: auto;
@@ -29,26 +28,23 @@ header {
 {
 	display: flex;
 	align-items: center;
-    height: 65px;
-    justify-content: center;
-
-    
+	height: 65px;
+	justify-content: center;
 }
-
 
 .arrow
 {
 	line-height: 40px;
-	    position: absolute;
-    left: 6px;
-    color: black;
+	position: absolute;
+	left: 6px;
+	color: black;
 }
 
- .logo 
- {
- 	height: 40px;
- 	vertical-align: middle;
- }
+.logo
+{
+	height: 40px;
+	vertical-align: middle;
+}
 
 .image
 {
@@ -63,11 +59,11 @@ section
 	background-color: #f6f6f6;
 	padding: 25px 0;
 	border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    position: relative;
-    bottom: 50px;
-    max-width: 1000px;
-    margin: auto;
+	border-top-right-radius: 50px;
+	position: relative;
+	bottom: 50px;
+	max-width: 1000px;
+	margin: auto;
 }
 
 h1, h2
@@ -84,15 +80,15 @@ h1
 .title_hearth
 {
 	display: flex;
-	    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .hearth
 {
 	display: flex;
-    align-items: center;
-    padding-right: 30px;
-    font-size: xx-large;
+	align-items: center;
+	padding-right: 30px;
+	font-size: xx-large;
 }
 
 .button
@@ -109,26 +105,27 @@ h1
 	color: white;
 	font-size: inherit;
 	line-height: 45px;
-    border: none;
-    border-radius: 25px;
-    padding: 2px 42px;
-    margin: 15px 0;
+	border: none;
+	border-radius: 25px;
+	padding: 2px 42px;
+	margin: 15px 0;
 }
 
 /*----- Article -----*/
-article 
+article
 {
 	display: flex;
 	flex-direction: column;
 }
 
-.all_plate 
+.all_plate
 {
 	margin: 20px 0;
 }
 
 .fa-check-circle
-{	display: flex;
+{
+	display: flex;
 	font-size: xx-large;
 }
 
@@ -141,13 +138,12 @@ article
 .border
 {
 	width: 50px;
-    border-top: solid 3px #99E2D0;
-    margin-left: 20px;
-    margin-top: -15px;
+	border-top: solid 3px #99E2D0;
+	margin-left: 20px;
+	margin-top: -15px;
 }
 
 /*----- Footer -----*/
-
 footer, li a
 {
 	color: white;
@@ -160,8 +156,8 @@ footer
 	background-color: #353535;
 	margin-top: -50px;
 	max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h5
@@ -171,23 +167,22 @@ h5
 	padding-left: 30px;
 }
 
-li 
+li
 {
 	list-style: none;
 	padding-bottom: 10px;
 }
 
-.fa-utensils 
+.fa-utensils
 {
 	padding-right: 15px;
 }
 
-.fa-hands-helping 
+.fa-hands-helping
 {
 	font-size: small;
 	padding-right: 7px;
 }
-
 
 @media only screen and (min-width: 800px)
 {
@@ -200,10 +195,9 @@ li
 	{
 		display: inline-flex;
 		margin: 0 30px;
-		
 	}
-
 }
+
 @media only screen and (min-width: 1400px)
 {
 	header, section
@@ -215,16 +209,15 @@ li
 	{
 		display: flex;
 		justify-content: flex-start;
-	    flex-wrap: wrap;
-	    margin-left: 100px;
+		flex-wrap: wrap;
+		margin-left: 100px;
 	}
 
 	.plate_price
-	 {
-	 	width: 39%;
-	 }
+	{
+		width: 39%;
+	}
 
-	
 	footer
 	{
 		max-width: 1400px;
