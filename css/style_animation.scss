@@ -15,11 +15,21 @@
 	transition: color 1.2s;
 	transform-origin: center center;
 	cursor: pointer;
+  
 	font-weight: initial;
 	&:hover	{
 		color: rgb(176, 7, 255);
-		font-weight: bold;
+		
 	}
+}
+
+.hearth 
+{
+  color: green;
+  font-size: x-large
+  transition-property: font-size;
+ 
+
 }
 
 /* ---------- animation check -------------- */
@@ -31,6 +41,7 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		
 	}
 
 }
