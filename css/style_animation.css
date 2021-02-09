@@ -11,8 +11,8 @@
 
 /* ---------- annimation coeur --------- */
 .fa-heart {
-  -webkit-transition: color 3s;
-  transition: color 3s;
+  -webkit-transition: color 1.2s;
+  transition: color 1.2s;
   -webkit-transform-origin: center center;
           transform-origin: center center;
   cursor: pointer;
