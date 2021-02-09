@@ -1,51 +1,46 @@
 /* ---------- animation bouttons ----------- */
 .button_color:hover, .bar:hover {
   cursor: pointer;
-  -webkit-transition-duration: 550ms;
+  transition-duration: 550ms;
           transition-duration: 550ms;
-  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
           filter: brightness(120%);
-  -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
           box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
 }
 
 /* ---------- annimation coeur --------- */
 .coeur_plein {
   position: absolute;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.6s linear;
-  transition: -webkit-transform 0.6s linear;
+  transform: scale(0);
+         ;
   transition: transform 0.6s linear;
-  transition: transform 0.6s linear, -webkit-transform 0.6s linear;
+
   cursor: pointer;
   color: #FF79DA;
 }
 
 .coeur_vide {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: -webkit-transform .1s linear;
-  transition: -webkit-transform .1s linear;
+  transform: scale(1);
+          
   transition: transform .1s linear;
-  transition: transform .1s linear, -webkit-transform .1s linear;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+ 
+  overflow: hidden;
 }
 
 .hearth:hover .coeur_plein {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.06);
+          transform: scale(1.06);
 }
 
 .hearth:hover .coeur_vide {
-  -webkit-transform: scale(1);
+  transform: scale(1);
           transform: scale(1);
 }
 
 /* ---------- animation check -------------- */
 .plate {
-  -webkit-box-flex: 1;
+  box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   width: 130px;
@@ -64,11 +59,9 @@
 }
 
 .slide_left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 0;
-  -webkit-transition: all 1s;
+  transition: all 1s;
   transition: all 1s;
   background-color: #99E2D0;
 }
@@ -77,25 +70,21 @@
   margin: auto;
   color: white;
   font-weight: bold;
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-  -webkit-transform: rotate(-1turn);
+
+  transform: rotate(-1turn);
           transform: rotate(-1turn);
 }
 
 .plate_price {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+   display: flex;
   width: 80%;
   margin: auto;
   overflow: hidden;
   cursor: pointer;
   border-radius: 25px;
   margin-bottom: 10px;
-  -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
           box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
   padding: 0 0px 0px 18px;
 }
@@ -105,7 +94,7 @@
 }
 
 .plate_price:hover > .slide_left .fa-check-circle {
-  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
           transform: rotate(0deg);
 }
 
@@ -121,7 +110,7 @@
   border-style: double;
   border-radius: 50%;
   margin: auto;
-  -webkit-animation: loading 3.5s linear 1;
+  animation: loading 3.5s linear 1;
           animation: loading 3.5s linear 1;
   position: fixed;
   top: 0;
@@ -134,11 +123,11 @@
 
 nav, main, footer, #booking, #search_city {
   opacity: 1;
-  -webkit-animation: apparition_page 3.5s;
+  animation: apparition_page 3.5s;
           animation: apparition_page 3.5s;
 }
 
-@-webkit-keyframes apparition_page {
+@keyframes apparition_page {
   0% {
     opacity: 0;
   }
@@ -162,9 +151,9 @@ nav, main, footer, #booking, #search_city {
   }
 }
 
-@-webkit-keyframes loading {
+@keyframes loading {
   0% {
-    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn);
             transform: rotate(0turn);
     opacity: 1;
   }
@@ -172,7 +161,7 @@ nav, main, footer, #booking, #search_city {
     opacity: 1;
   }
   100% {
-    -webkit-transform: rotate(-7turn);
+    transform: rotate(-7turn);
             transform: rotate(-7turn);
     opacity: 0;
   }
@@ -180,7 +169,7 @@ nav, main, footer, #booking, #search_city {
 
 @keyframes loading {
   0% {
-    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn);
             transform: rotate(0turn);
     opacity: 1;
   }
@@ -188,7 +177,7 @@ nav, main, footer, #booking, #search_city {
     opacity: 1;
   }
   100% {
-    -webkit-transform: rotate(-7turn);
+    transform: rotate(-7turn);
             transform: rotate(-7turn);
     opacity: 0;
   }
@@ -196,36 +185,36 @@ nav, main, footer, #booking, #search_city {
 
 /*------- Apparition menu ---------*/
 .plate_price:nth-child(1) {
-  -webkit-animation: plat_1 1s linear backwards;
+  animation: plat_1 1s linear backwards;
           animation: plat_1 1s linear backwards;
   opacity: 1;
 }
 
 .plate_price:nth-child(2) {
-  -webkit-animation: plat_1 1s linear backwards;
+  animation: plat_1 1s linear backwards;
           animation: plat_1 1s linear backwards;
   opacity: 1;
-  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
           animation-delay: 0.3s;
 }
 
 .plate_price:nth-child(3) {
-  -webkit-animation: plat_1 1s linear backwards;
+  animation: plat_1 1s linear backwards;
           animation: plat_1 1s linear backwards;
   opacity: 1;
-  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
 
 .plate_price:nth-child(4) {
-  -webkit-animation: plat_1 1s linear backwards;
+  animation: plat_1 1s linear backwards;
           animation: plat_1 1s linear backwards;
   opacity: 1;
-  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
           animation-delay: 0.9s;
 }
 
-@-webkit-keyframes plat_1 {
+@keyframes plat_1 {
   0% {
     opacity: 0;
   }
