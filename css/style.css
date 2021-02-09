@@ -196,6 +196,9 @@ article img
 {
 	font-size: xx-large;
 }
+.coeur_plein {
+	right: 13px;
+}
 
 /*------- Footer -------*/
 footer, li a
