@@ -40,9 +40,7 @@
 
 /* ---------- animation check -------------- */
 .plate {
-  box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   width: 130px;
 }
 
@@ -54,8 +52,7 @@
 
 .price {
   width: 40px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+       align-self: flex-end;
 }
 
 .slide_left {
